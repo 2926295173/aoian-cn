@@ -7,7 +7,7 @@ This is a homepage written in HTML/JavsScript for Noisky.
 
 aoian的个人主页（HTML/JavaScript版）
 
-<img src="https://img.ffis.me/images/2019/10/25/3758164065.png"  alt="noisky.cn" />
+
 
 - 响应式设计，PC/手机/Pad，全平台阅读适配
 - 背景图片随机选取
