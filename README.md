@@ -5,6 +5,8 @@
 
 This is a homepage written in HTML/JavsScript for Noisky.
 
+出自 https://github.com/noisky/Homepage
+
 aoian的个人主页（HTML/JavaScript版）
 
 本项目展示地址：http://aoian.cn
