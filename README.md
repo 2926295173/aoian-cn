@@ -9,7 +9,7 @@ This is a homepage written in HTML/JavsScript for Noisky.
 
 aoian的个人主页（HTML/JavaScript版）
 
-本项目展示地址：http://aoian.cn
+本项目展示地址：https://aoian.cn
 
 
 [GitHub repo size]:https://img.shields.io/github/repo-size/2926295173/aoian-cn?logo=git&style=flat-square
