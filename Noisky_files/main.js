@@ -1,7 +1,4 @@
-/**
- * Created by Noisky on 17/05/13.
- * Revised by Noisky on 19/09/10.
- */
+
 $(document).ready(function () {
     /**
      * 随机获取背景图片
@@ -67,23 +64,6 @@ $(document).ready(function () {
      */
     $('.year').html(new Date().getFullYear());
 
-    /**
-     * 异步加载一言
-     */
-    /*(function getHitokoto() {
-        $.ajax({
-            //url: "https://api.imjad.cn/hitokoto/?encode=jsc&charset=utf-8&length=50",
-            url: "https://v1.hitokoto.cn/?encode=json&charset=utf-8",
-            dataType: "jsonp",
-            async: true,
-            jsonp: "callback",
-            jsonpCallback: "hitokoto",
-            success: function (result) {
-                $('#hitokoto').html("<p>" + result.hitokoto + "</p>")
-            },
-            error: function () {
-                $('#hitokoto').html("<p>读取数据失败了的说……_(:з」∠)_</p>")
-            }
-        });
-    })();*/
+    
+    
 });
