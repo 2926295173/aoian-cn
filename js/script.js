@@ -48,7 +48,14 @@
         window.jinrishici.load((result) => {
           const data = result && result.data;
           if (data && data.content) {
-            const origin = data.origin ? `「${data.origin}」` : '';
+            let origin = '';
+            if (data.origin) {
+              if (typeof data.origin === 'string') {
+                origin = `「${data.origin}」`;
+              } else if (data.origin.title) {
+                origin = `「${data.origin.title}」`;
+              }
+            }
             poemEl.textContent = `『 ${data.content} ${origin} 』`;
           }
         });
@@ -160,8 +167,8 @@
 
     function resize() {
       dpr = Math.min(window.devicePixelRatio || 1, 2);
-      w = canvas.clientWidth = window.innerWidth;
-      h = canvas.clientHeight = window.innerHeight;
+      w = window.innerWidth;
+      h = window.innerHeight;
       canvas.width = w * dpr;
       canvas.height = h * dpr;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
